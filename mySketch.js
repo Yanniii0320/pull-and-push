@@ -21,7 +21,7 @@ function setup() {
 	for (let i = 0; i < myText.length; i++) {
 		textFont('helvatica');
 		textSize(25);
-		//textStyle(BOLD);
+		textStyle(BOLD);
 		text(myText[i], x, y);
 		x = 10;
 		y += spacing;
